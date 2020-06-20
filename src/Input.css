@@ -1,0 +1,49 @@
+form{
+    height: 400px;
+    width: 400px;
+    position: fixed;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    background-color: tomato;
+    box-shadow: 5px 5px white;
+    color: white;
+}
+button{
+    background-color: cadetblue;
+    position: fixed;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    border:0.16em solid #FFFFFF;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.15s;
+    padding: 5px;
+}
+.inputBox{
+    margin-top: 30px;
+    
+}
+input[type=text] {
+    -webkit-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+}
+body{
+    background: cadetblue;
+}
+
+input[type=text] {
+    height: 30px;
+    position: relative;
+    left: 0;
+    outline: none;
+    border: 1px solid #cdcdcd;
+    border-color: rgba(0, 0, 0, .15);
+    background-color: white;
+    font-size: 16px;
+}

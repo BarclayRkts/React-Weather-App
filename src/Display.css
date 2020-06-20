@@ -1,0 +1,16 @@
+.container{
+    padding-top: 15px;
+    background-color: tomato;
+}
+
+.data{
+    display: block; 
+}
+span{
+    font-family: sans-serif;
+    font-style: bold;
+    padding-top: 30px;
+}
+.temp{
+    font-size: 35px;
+}
